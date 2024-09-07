@@ -6,10 +6,10 @@ LOGS_LOCATION="$CACHE_LOCATION/logs"
 LOG_FILE="$LOGS_LOCATION/access.log"
 
 # MySQL database connection parameters
-DB_HOST="localhost"
-DB_USER="dbusername"
-DB_PASS="dbpassword"
-DB_NAME="lancache_db"
+DB_HOST='localhost'
+DB_USER='dbusername'
+DB_PASS='dbpassword'
+DB_NAME='lancache_db'
 
 # Path to a file that, when created, indicates the script is already active
 LOCKFILE=/tmp/sendlogs.lock
