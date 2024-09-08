@@ -1,0 +1,11 @@
+[Unit]
+Description=Send LanCache Stats to MySQL
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /root/lancache/lancache-stats/lancache-stats.sh
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
